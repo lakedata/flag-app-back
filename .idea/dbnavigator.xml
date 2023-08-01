@@ -20,7 +20,11 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" object-ref="schemas/flag_db/tables/flagtb" />
+      <object connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" object-ref="schemas/flag_db/tables/FlagTB" />
+      <object connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" object-ref="schemas/flag_db/tables/UserTB" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="flag_db.UserTB" active-filter-id="EMPTY_FILTER">
@@ -28,7 +32,47 @@
         <condition column="user_id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
+    <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="flag_db.FlagMemList" active-filter-id="38da46e2-c803-474a-920f-bd0c3b751327">
+      <filter id="38da46e2-c803-474a-920f-bd0c3b751327" name="Filter" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="groupId" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="flag_db.flagtb" active-filter-id="43e25a47-3e84-4c9c-89db-ae6d477ab66e">
+      <filter id="43e25a47-3e84-4c9c-89db-ae6d477ab66e" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="flag_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="flag_db.usertb" active-filter-id="c06b8652-6787-4c80-9995-b5252e4bf552">
+      <filter id="c06b8652-6787-4c80-9995-b5252e4bf552" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="user_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
     <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="sys.sys_config" active-filter-id="" />
+    <filter-actions connection-id="1b897bab-1866-451c-a6a6-fb745d2d7469" dataset="flag_db.FlagTB" active-filter-id="f3dc3bf1-f5ae-442e-a1e0-e99f51d0bec8">
+      <filter id="f3dc3bf1-f5ae-442e-a1e0-e99f51d0bec8" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="flagId" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" dataset="flag_db.UserTB" active-filter-id="c67dfedd-de64-49ff-b449-695525cbad50">
+      <filter id="c67dfedd-de64-49ff-b449-695525cbad50" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="user_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" dataset="flag_db.flagtb" active-filter-id="d0a4212b-812c-4e99-97d6-a2958fef3d1e">
+      <filter id="d0a4212b-812c-4e99-97d6-a2958fef3d1e" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="flag_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" dataset="flag_db.usertb" active-filter-id="EMPTY_FILTER">
+      <filter id="7ec2b768-2b14-42bf-823e-28db203d169c" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="user_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="9ac6edf7-a4c7-4bbc-9cb9-2747d58c3b26" dataset="flag_db.FlagTB" active-filter-id="f8dade0a-c7f4-4714-b121-107e630827ee">
+      <filter id="f8dade0a-c7f4-4714-b121-107e630827ee" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="flag_id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
